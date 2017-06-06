@@ -1,14 +1,14 @@
-# Percentile [![Build Status](https://travis-ci.org/msn0/stats-mad.svg?branch=master)](http://travis-ci.org/msn0/stats-mad)
+# median absolute deviation (MAD) [![Build Status](https://travis-ci.org/msn0/stats-mad.svg?branch=master)](http://travis-ci.org/msn0/stats-mad)
 
-> Calculate median absolute deviation (MAD)
+> Calculate median absolute deviation [MAD](https://en.wikipedia.org/wiki/Median_absolute_deviation)
 
 ## Installation
 
 ```sh
-npm install stats-mad
+→ npm i -save stats-mad
 ```
 
-## Example 1
+## Example
 
 ```js
 const mad = require('stats-mad');
