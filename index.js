@@ -1,6 +1,6 @@
-const median = require('stats-median');
+const median = require('stats-median').calc;
 
 module.exports = function (data) {
-    // todo
-    return;
+    const dataMedian = median(data);
+    return median(data.map((x) => Math.abs(x - dataMedian)));
 };
