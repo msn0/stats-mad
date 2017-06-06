@@ -1,0 +1,31 @@
+{
+  "name": "stats-mad",
+  "version": "1.0.0",
+  "description": "Calculate media absolute deviation (MAD)",
+  "scripts": {
+    "test": "ava --verbose && eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msn0/stats-mad.git"
+  },
+  "keywords": [
+    "median",
+    "stats",
+    "statistics",
+    "analytics"
+  ],
+  "author": "Michał Jezierski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msn0/stats-mad/issues"
+  },
+  "homepage": "https://github.com/msn0/stats-mad",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint-config-helmut": "^1.2.0"
+  },
+  "dependencies": {
+    "stats-median": "^1.0.0"
+  }
+}
