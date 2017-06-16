@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-→ npm i -save stats-mad
+→ npm i --save stats-mad
 ```
 
 ## Example
